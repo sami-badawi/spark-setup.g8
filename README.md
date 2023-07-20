@@ -26,7 +26,7 @@ sbt new sami-badawi/spark-setup.g8
 Download template and run
 
 ```sh
-sbt new file://sami-badawi/spark-setup.g8
+sbt new file://spark-setup.g8
 ```
 
 ## Parameters with defaults
