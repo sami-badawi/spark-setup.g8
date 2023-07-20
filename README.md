@@ -2,10 +2,16 @@ A [Giter8][g8] template for setting up a simple Spark project
 
 There are a few pitfalls in setting up a Spark project.
 
-There are some Giter8 templates for Spark but they are somewhat old.
-
 The purpose of this Giter8 template is to make it easier to get started with a simple Spark project.
-For example for a code test.
+For example, for a code test.
+
+# Features
+
+* Configure what version of Spark and Scala to use
+* Setup Spark unit tests example
+* Written to build thin jar
+* Written to build fat jar
+* Explains how to run Spark from sbt without the NoClassDefFoundError exception
 
 # How to use
 
