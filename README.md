@@ -15,13 +15,13 @@ For example, for a code test.
 
 # How to use
 
-## Run directly SBT calling GitHub
+## Run template directly from sbt
 
 ```sh
 sbt new sami-badawi/spark-setup.g8
 ```
 
-## Run locally
+## Run template locally
 
 Download template and run
 
@@ -36,7 +36,7 @@ name [Simple Spark Project]:
 normalizedName [simplesparkproject]:
 organization [com.example]:
 package [com.example.simplesparkproject]:
-sparkversion [3.3.1]:
+sparkversion [3.3.2]:
 scalaversion [2.12.18]:
 ```
 

@@ -9,6 +9,12 @@ This Giter8 template deals with a few common Spark SBT pitfalls.
 
 ## Usage
 
+### Requirements
+
+Make sure you have a version of Java JDK that works with Spark, such as Java 8 or Java 11.
+
+You can install that with SDKMan.
+
 ### Run unit test
 
 You can run Spark code in unit test without modifications to build.sbt file.
@@ -70,4 +76,14 @@ sbt clean package
 
 ```sh
 sbt clean assembly
+
+spark-submit --class $package$.SparkWorker ./target/scala-2.12/simple-spark-project-assembly-0.1.0.jar
+```
+
+#### Local run Mac or Linux
+
+You can run on local cluster 
+
+```sh
+spark-submit --class $package$.SparkWorker `find . -name "*.jar"`
 ```

@@ -7,7 +7,7 @@ import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SparkSession
 
 /** In order to call this with sbt run you need to comment out % "provided" in
-  * build.sbt
+  * build.sbt, or submit to Spark with spark-submit.
   */
 object SparkWorker {
 
